@@ -7,7 +7,7 @@ const schemes = require('./data/schemes.json');
 app.use(cors());
 app.use(express.json());
 
-app.post('/api/schemes', (req, res) => {
+app.get('/api/schemes', (req, res) => {
     const { age, gender, income, state, problem } = req.body;
 
     const matchedSchemes = schemes.filter(scheme =>
