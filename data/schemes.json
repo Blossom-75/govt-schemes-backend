@@ -1,0 +1,20 @@
+[
+  {
+    "name": "PM Awas Yojana",
+    "age": { "min": 18, "max": 60 },
+    "gender": "All",
+    "income": 300000,
+    "state": "All",
+    "problem": "housing",
+    "description": "Subsidy for affordable housing for low income citizens"
+  },
+  {
+    "name": "Kanya Shiksha Yojana",
+    "age": { "min": 6, "max": 18 },
+    "gender": "Female",
+    "income": 200000,
+    "state": "Tamil Nadu",
+    "problem": "education",
+    "description": "Financial aid for girls’ education in Tamil Nadu"
+  }
+]
